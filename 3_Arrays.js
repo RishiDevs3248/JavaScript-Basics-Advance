@@ -2,6 +2,17 @@ let arr = [1, 2, 3, 4, 5, 6];
 
 // array basics 
 
+// printing Array - method 1
+// console.log(arr)
+// printing Array - method 2
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
+// }
+// printing Array - method 2
+// for (const element of arr) {
+//     console.log(element)
+// }
+
 
 
 // ------------------------------------------------------------------------------------------------------
