@@ -143,3 +143,20 @@ let data = [[10, 20], [30, 40], [50, 60]]
 // problem 10 - add a new inner array
 // data.push([1,2,3,4,5,6,7,8])
 // console.log(data)
+
+
+// revision class
+
+// ------------------------------------------------------------------------------------------------------
+// Factorial of any given number n is represented as n! = n * n-1 * n-2 .....* 1.
+
+// let n = 10;
+
+// let fact = 1 ;
+// for(let i=1 ; i<n ; i++){
+//     fact *= i ;
+// }
+// console.log(fact)
+
+
+// console.log([]+[]) --> empty string
