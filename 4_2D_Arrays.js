@@ -145,7 +145,26 @@ let data = [[10, 20], [30, 40], [50, 60]]
 // console.log(data)
 
 
-// revision class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// previous revision
 
 // ------------------------------------------------------------------------------------------------------
 // Factorial of any given number n is represented as n! = n * n-1 * n-2 .....* 1.
@@ -160,3 +179,119 @@ let data = [[10, 20], [30, 40], [50, 60]]
 
 
 // console.log([]+[]) --> empty string
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// sum of all elem in 2D array
+// let arr  = [[1,5,7],
+// [8,2,9],
+// [11,54,-9]]
+// let sum = 0;
+// for(let i=0 ; i < arr.length ; i++){
+//     for(let j=0 ; j<arr[i].length ; j++){
+//         sum += arr[i][j];
+//     }
+// }
+// console.log(sum)
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// sum of all even elem in 2D array
+
+// let arr  = [[1,5,7],
+// [8,2,9],
+// [11,54,-9]]
+// let count = 0;
+// for(let i=0 ; i < arr.length ; i++){
+//     for(let j=0 ; j<arr[i].length ; j++){
+//         if(arr[i][j] % 2 == 0){
+//         count ++
+//         }
+//     }
+// }
+// console.log(count)
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// Transspose of 2d array
+
+// let arr = [[1, 2, 3], [4, 5, 6], [7,8,9]]
+// let Tarr = []
+// for(let i=0 ; i < arr[0].length ; i++){
+//     Tarr.push([])
+// }
+// for(let i=0 ; i < arr.length ; i++){
+//     for(let j=0 ; j<arr[i].length ; j++){
+//         Tarr[j].push(arr[i][j]);
+//     }
+// }
+// console.log(Tarr)
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// print the idx of arr with max no of elem
+
+// let arr = [[1, 2, 3], [4, 5, 6], [7,8,9,10]]
+// let max = -Infinity;
+// let idx = -1;
+// for(let i=0 ; i < arr.length ; i++){
+//     if(max < arr[i].length){
+//         max = arr[i].length
+//         idx = i
+//     }
+// }
+// console.log(idx)
+
+
+// ------------------------------------------------------------------------------------------------------
+// [ [ 1, 5 ], [ 2, 6 ], [ 3, 4 ] ]
+
+// let arr = [
+//     [1,2,3],
+//     [4,5,6]
+// ]
+
+// let Tarr = []
+// for(let i=0 ; i < arr[0].length ; i++){
+//     Tarr.push([])
+// }
+// for(let i=0 ; i < arr.length ; i++){
+//     for(let j=0 ; j<arr[i].length ; j++){
+//         Tarr[j].push(arr[i][(j+i)%arr[0].length]);
+//     }
+// }
+// console.log(Tarr)
+
+
+// ------------------------------------------------------------------------------------------------------
+// 1,2,3,6,5,4,7,8,9,
+
+let arr = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+for(let i=0 ; i<arr.length ; i++){
+    if((i+1 )% 2 == 1){
+        for(let j=0 ; j<arr[i].length ; j++){
+            process.stdout.write(`${arr[i][j]},`);
+        }
+    }else{
+        for(let j=arr[i].length-1 ; j>=0 ; j--){
+            process.stdout.write(`${arr[i][j]},`);
+        }
+    }
+}
