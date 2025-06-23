@@ -278,20 +278,20 @@ let data = [[10, 20], [30, 40], [50, 60]]
 // ------------------------------------------------------------------------------------------------------
 // 1,2,3,6,5,4,7,8,9,
 
-let arr = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
+// let arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
 
-for(let i=0 ; i<arr.length ; i++){
-    if((i+1 )% 2 == 1){
-        for(let j=0 ; j<arr[i].length ; j++){
-            process.stdout.write(`${arr[i][j]},`);
-        }
-    }else{
-        for(let j=arr[i].length-1 ; j>=0 ; j--){
-            process.stdout.write(`${arr[i][j]},`);
-        }
-    }
-}
+// for(let i=0 ; i<arr.length ; i++){
+//     if((i+1 )% 2 == 1){
+//         for(let j=0 ; j<arr[i].length ; j++){
+//             process.stdout.write(`${arr[i][j]},`);
+//         }
+//     }else{
+//         for(let j=arr[i].length-1 ; j>=0 ; j--){
+//             process.stdout.write(`${arr[i][j]},`);
+//         }
+//     }
+// }
