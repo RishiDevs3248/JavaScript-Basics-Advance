@@ -8,7 +8,7 @@ let arr = [1, 2, 3, 4, 5, 6];
 // for (let i = 0; i < arr.length; i++) {
 //     console.log(arr[i])
 // }
-// printing Array - method 2
+// printing Array - method 3
 // for (const element of arr) {
 //     console.log(element)
 // }
