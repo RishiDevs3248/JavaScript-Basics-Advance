@@ -4,7 +4,6 @@
 //     [5, 6, 7]
 // ];
 
-
 // //Accessing inner arrays
 // console.log(arr[0])
 // console.log(arr[1])
