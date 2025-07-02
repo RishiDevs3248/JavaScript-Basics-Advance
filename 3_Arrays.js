@@ -1,4 +1,4 @@
-let arr = [1, 2, 3, 4, 5, 6];
+// let arr = [1, 2, 3, 4, 5, 6];
 
 // array basics 
 
@@ -231,3 +231,49 @@ let arr = [1, 2, 3, 4, 5, 6];
 // }
 // Add10(arr);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// set : basics
+// let arr = [1,2,1,1,2,2,3,4,4,5]
+// let s = new Set(arr)  // convert arr to set
+// console.log(s)
+
+// let arr2 = Array.from(s)
+// console.log(arr2)
+
+// s.add(6)
+// console.log(s)
+
+// s.delete(6)
+// console.log(s)
+
+// console.log(s.has(2))
+
+// s.clear()
+
+// console.log(s.size)
+
+//traverse using for of Or for each
+// for(let ele of s){
+//     console.log(ele)
+// }
+
+// s.forEach(ele => {
+//     console.log(ele)
+// });
