@@ -85,7 +85,7 @@
 
 // ------------------------------------------------------------------------------------------------------
 // flags
-// g
+// g - global flag
 
 
 
@@ -282,3 +282,198 @@
 
 
 
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 1 - check if string contains "hello"
+// let text = "Say hello to everyone"
+// let pattern = /hello/
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 2 - replace all occurance of cat with dog
+// let text = "cat is a cat"
+// let pattern = /cat/g
+// console.log(text.replace(pattern,"dog"))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 3 - match any digit in a string
+// let text = "user123"
+// let pattern = /\d+/
+// console.log(text.match(pattern))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 4 - match a word that starts with h
+// let text = "hello word"
+// let pattern = /^h/
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 5 - slpit a string into an array
+// let text = "red,blue,green"
+// let pattern = /,/
+// console.log(text.split(pattern))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 6 - case - insensitive match for "hello"
+// let text = "HELLO"
+// let pattern = /hello/i
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 7 - match if a string ends with "world"
+// let text = "HELLO world"
+// let pattern = /world$/
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 8 - find all occurences of letter "a"
+// let text = "banana"
+// let pattern = /a/g
+// console.log(text.match(pattern))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 9 - match any character between c and t and check is it a vowel
+// let text = "cat"
+// let pattern = /c[aeiou]t/g
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 10 - match any single character using "."
+// let text = "cat"
+// let pattern = /c.t/g
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 11 - Check if string contains only digits 
+// let text = "123"
+// let pattern = /^[0-9]+$/g
+// let pattern2 = /^\d+$/g
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 12 - check if string has exactly 3 a's
+// let text = "aaa"
+// let pattern = /^aaa$/g
+// let pattern2 = /a{3}/g
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 13 - use exec() to find multiple "h" characters in a string
+// let text = "hhaha"
+// let pattern = /h/g
+// console.log(pattern.exec(text))
+// console.log(pattern.exec(text))
+// console.log(pattern.exec(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 14 - match word boundary for "the" 
+// let text = "the end"
+// let pattern = /\bthe\b/g
+// console.log(text.match(pattern))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 15 - check if the string contains any lowercase letter
+// let text = "A1b2"
+// let pattern = /[a-z]/g
+// console.log(text.match(pattern))
+// console.log(pattern.test(text))
+
+
+
+
+
+// low Advance Problem
+// ------------------------------------------------------------------------------------------------------
+// problem 1 - Basic email vaildation
+// let text = "xyz@gmail.com"
+// let pattern = /^\w+@\w+\.com$/g
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 2 - Basic phone no validation
+// let text = "+911234567890"
+// let pattern = /^\+91\d{10}$/g
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// // problem 3 - Check if password contains atleast 6 characters and contains atleast. one digit
+// let text = "sjck2"
+// let pattern = /\d/
+// console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 4 - 
+// let text = "sjck2"
+// let pattern = /[a-z]*\d+[a-z]*/g
+// console.log(pattern.test(text))
