@@ -113,7 +113,7 @@
 // ------------------------------------------------------------------------------------------------------
 // anchors
 
-// ^ - 
+// ^ 
 // let text = "hello world"
 // let pattern = /^hello/
 // console.log(pattern.test(text));
@@ -473,7 +473,125 @@
 
 
 // ------------------------------------------------------------------------------------------------------
-// problem 4 - 
-// let text = "sjck2"
-// let pattern = /[a-z]*\d+[a-z]*/g
+// problem 21 - count vowels in string 
+// let text = "qwr"
+// let text = "qwertyuioasdfghjkzxcvbnmlp"
+// let pattern = /[aeiou]/ig
+// console.log((text.match(pattern)||[]).length )
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 23 - replace multilpe space with single space
+// let text = "qw     ertyu.   ioas dfghjkz  xcvbnm lp"
+// console.log(text.replace(/\s+/g," ") )
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 24 - return true if first letter is capital 
+// let text = "qwr"
+// let text = "Ads"
+// let pattern = /^[A-Z]/
 // console.log(pattern.test(text))
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 24.2 - return true if first letter of every word is capital 
+// let text = "Hello World"
+// let pattern = /^([A-Z][a-z]*\s?)+$/
+// console.log(pattern.test(text))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// Hoisting
+
+// happens due to execution context
+// it has two types
+// 1. Global execution context
+// 2. Function execution context - runs in global execution context (Code) when the function is called
+
+// structure for Global execution context 
+// -----------------------------------------------------------------------------------------------------------------
+// |                         Memory                         |                         Code                         |
+// -----------------------------------------------------------------------------------------------------------------
+// |                          runs                          |                         runs                         |
+// |                          first                         |                         sec                          |
+// |                                                        |                                                      |
+// |                                                        |                                                      |
+// |                                                        |              function execution context              |
+// |                                                        |                     Structure                        |
+// |                                                        |       ----------------------------------------       |
+// |                                                        |       |     Memory      |        Code        |       |
+// |                                                        |       ----------------------------------------       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |      runs       |       runs         |       |
+// |                                                        |       |      first      |       sec          |       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       ----------------------------------------       |
+// |                                                        |                                                      |
+// |                                                        |                                                      |
+// -----------------------------------------------------------------------------------------------------------------
+
+
+// console.log(a)
+// console.log(hello)
+// hello()
+
+// function hello(){
+//     console.log("hello")
+// }
+
+// // var hello = ()=>{      //arrow function works as a variable and not like a function  
+// //     console.log("hello")
+// // }
+// var a = 5;
+
+// console.log(a)
+
+
+
+// -----------------------------------------------------------------------------------------------------------------
+// |                         Memory                         |                         Code                         |
+// -----------------------------------------------------------------------------------------------------------------
+// |             a = undefined                              |       console.log(a)                                 |
+// |                                                        |       console.log(hello)                             |
+// |             function hello(){                          |                                                      |
+// |               console.log("hello")                     |       hello()                                        |
+// |             }                                          |                                                      |
+// |             a = 5                                      |       ----------------------------------------       |
+// |                                                        |       |     Memory      |        Code        |       |
+// |                                                        |       ----------------------------------------       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |                 |console.log("hello")|       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       |                 |                    |       |
+// |                                                        |       ----------------------------------------       |
+// |                                                        |       console.log(a)                                 |
+// |                                                        |                                                      |
+// -----------------------------------------------------------------------------------------------------------------
