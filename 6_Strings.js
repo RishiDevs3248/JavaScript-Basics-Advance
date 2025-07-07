@@ -1,10 +1,10 @@
-// let name = 'rishi';
-// console.log(name.charAt(0))
-// console.log(name.length)
-// console.log(name.includes("man"))
-// console.log(name.endsWith("shi"))
-// console.log(name.startsWith("Ri"))
-// console.log(name.indexOf("s"))
+let name = 'rishi';
+// console.log("charAt : "+name.charAt(0))
+// console.log("length : "+name.length)
+// console.log("includes : "+name.includes("man"))
+// console.log("endsWith : "+name.endsWith("shi"))
+// console.log("startsWith : "+name.startsWith("Ri"))
+// console.log("indexOf : "+name.indexOf("s"))
 
 
 // function endsWith(str, substr){
@@ -88,6 +88,7 @@ let x = "a.b..c..d."
 // problem 1 - count vowels
 
 // let str = "qwertyuiopasdfghjklxcvbnm";
+// let str = "";
 // str = str.toLowerCase()
 
 // let count = 0
@@ -99,7 +100,9 @@ let x = "a.b..c..d."
 
 // console.log(count)
 
-
+// let pattern = /[aeiou]/ig
+// console.log((str.match(pattern) || []).length)
+// console.log(str.match(pattern))
 // ------------------------------------------------------------------------------------------------------
 // problem 2 - reverse s string
 
