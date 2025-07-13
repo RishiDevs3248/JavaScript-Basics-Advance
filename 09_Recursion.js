@@ -33,7 +33,7 @@
 
 
 
-        
+
 // ------------------------------------------------------------------------------------------------------
 // problem 2 - print in incresing no.
 // function incRec(n){
@@ -44,7 +44,7 @@
 //     console.log(n)
 // }
 // incRec(5)    
-        
+
 
 
 
@@ -95,11 +95,34 @@
 
 
 // ------------------------------------------------------------------------------------------------------
-// problem 6 - 
-// function pow(x,n){
-//     if(n<=1){
-//         return x;
+// problem 6 - print array 
+// function print(arr, n) {
+//     if (n == arr.length) {
+//         return;
 //     }
-//     return x*pow(x,n-1)
+//     console.log(arr[n])
+//     print(arr, n + 1)
 // }
-// console.log(pow(5,4))
+// let arr = [1, 2, 3, 4, 5]
+// print(arr, 0)
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+// problem 7 - max element in an array
+// function maxEle(arr, n) {
+//     if (n == arr.length-1) {
+//         return arr[arr.length-1];
+//     }
+//     // return Math.max(maxEle(arr, n + 1), arr[n])
+//     if(arr[n] < maxEle(arr, n + 1)){
+//         return maxEle(arr, n + 1)
+//     }
+//     return arr[n] 
+// }
+// let arr = [5,3,9,7,8]
+// console.log(maxEle(arr, 0))
+
+
