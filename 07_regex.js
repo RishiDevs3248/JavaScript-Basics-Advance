@@ -595,3 +595,21 @@
 // |                                                        |       console.log(a)                                 |
 // |                                                        |                                                      |
 // -----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+// | Entity                             | Hoisted? | Initialized?                    | Access Before Declaration?            |
+// | ---------------------------------- | -------- | ------------------------------- | ------------------------------------- |
+// | var                                | Yes      | undefined                       | Yes, but value is undefined.          |
+// | let                                | Yes      | No (TDZ)                        | No, ReferenceError.                   |
+// | const                              | Yes      | No (TDZ)                        | No, ReferenceError.                   |
+// | Function Declaration               | Yes      | Fully hoisted with body         | Yes, can call before declaration.     |
+// | Function Expression (var)          | Yes      | undefined                       | No, behaves like var.                 |
+// | Function Expression (let or const) | Yes      | No (TDZ)                        | No, ReferenceError.                   |
+// | Class                              | Yes      | No (TDZ)                        | No, ReferenceError.                   |
+// | Function Parameters                | Yes      | Initialized with argument value | Yes, using the passed argument value. |
