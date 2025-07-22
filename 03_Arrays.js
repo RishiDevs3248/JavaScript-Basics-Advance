@@ -278,3 +278,46 @@
 //     console.log(ele)
 // });
 
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------
+//  trapping rain water 
+
+
+// function tw(arr){
+//     let barWidth = 1 
+//     let totalWater = 0
+//     let n = arr.length
+//     let larr = new Array(n).fill(0)
+//     let Rarr = new Array(n).fill(0)
+//     let lmax = -Infinity
+//     let Rmax = -Infinity
+
+//     for(let i=0 ; i<larr.length ; i++){
+//         lmax = Math.max(lmax, arr[i])
+//         larr[i] = lmax
+//     }
+
+//     for(let i = arr.length-1 ; i>=0 ; i--){
+//         Rmax = Math.max(Rmax, arr[i])
+//         Rarr[i] = Rmax
+//     }
+
+//     for(let i=0 ; i<larr.length ; i++){
+//         totalWater += (Math.min(larr[i],Rarr[i]) - arr[i])*barWidth
+//     }
+
+//     console.log(totalWater)
+
+// }
+
+// let arr  = [4,2,0,6,3,2,5];
+// tw(arr)
