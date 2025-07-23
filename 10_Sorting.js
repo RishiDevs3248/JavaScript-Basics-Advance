@@ -100,7 +100,7 @@
 //             [arr[j], arr[j - 1]] = [arr[j - 1], arr[j]]
 //             j--;
 //         }
-//         console.log(arr)
+//         console.log(arr.join(" "))
 //     }
 //     // console.log(arr)
 // }
