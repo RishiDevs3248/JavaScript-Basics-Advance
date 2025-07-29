@@ -85,69 +85,70 @@
 // Map
 
 
-// const map1 = new Map();
+const map1 = new Map();
 
 
-// // set
-// map1.set("name", "rishi");
-// map1.set("age", 20);
-// map1.set("height", "174cm");
-// // console.log(map1)
+// set
+map1.set("name", "rishi");
+map1.set("age", 20);
+map1.set("height", "174cm");
+// console.log(map1)
 
 
-// const arr = [["name", "rishi"],["age", 20],["height", "174cm"]]
-// const map2 = new Map(arr);
-// console.log(map2)
+const arr = [["name", "rishi"],["age", 20],["height", "174cm"]]
+const map2 = new Map(arr);
+console.log(map2)
 
 
-// // get()
-// console.log()
-// console.log("----- get -----")
-// console.log(map2.get("name"))
-// console.log(map2.get("age"))
+// get()
+console.log()
+console.log("----- get -----")
+console.log(map2.get("name"))
+console.log(map2.get("age"))
 
 
-// // has()
-// console.log()
-// console.log("----- has -----")
-// console.log(map1.has("height"))
+// has()
+console.log()
+console.log("----- has -----")
+console.log(map1.has("height"))
 
 
-// // delete()
-// console.log()
-// console.log("----- delete -----")
-// console.log(map2.delete("height"))
-// console.log(map2)
+// delete()
+console.log()
+console.log("----- delete -----")
+console.log(map2.delete("height"))
+console.log(map2)
 
 
-// // clear()
-// console.log()
-// console.log("----- clear -----")
-// map2.clear()
-// console.log(map2)
+// clear()
+console.log()
+console.log("----- clear -----")
+map2.clear()
+console.log(map2)
 
 
-// // size
-// console.log()
-// console.log("----- size -----")
-// console.log(map1.size)
+// size
+console.log()
+console.log("----- size -----")
+console.log(map1.size)
 
 
-// // traversal 
-// // for of
-// console.log()
-// console.log("----- forOf -----")
-// for (const [key,val] of map1) {
-//     console.log(`${key} : ${val}`)
-// }
+// traversal 
+// for of
+console.log()
+console.log("----- forOf -----")
+for (const [key,val] of map1) {
+    console.log(`${key} : ${val}`)
+}
 
 
-// // forEach
-// console.log()
-// console.log("----- forEach -----")
-// map1.forEach((ele,idx)=>{
-//     console.log(`${idx} : ${ele}`)
-// })
+// forEach
+console.log()
+console.log("----- forEach -----")
+map1.forEach((ele,idx)=>{
+    console.log(`${idx} : ${ele}`)
+})
+
 
 
 // ------------------------------------------------------------------------------------------------------
