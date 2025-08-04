@@ -41,7 +41,7 @@
 
 
 
-// arr.splice(starting index, no. of elems to be removed, elem to insert)
+// arr.splice(starting index, no. of elems to be removed, elem to insert ...)
 
 // removing from middle
 // let arr = [2, 4, 6, 8];
