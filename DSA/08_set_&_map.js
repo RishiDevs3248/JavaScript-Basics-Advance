@@ -36,118 +36,118 @@
 
 
 // // ------------------------------------------------------------------------------------------------------
-// // Set 
-// let set = new Set ()
+// Set 
+let set = new Set ()
 
 
-// // add()
-// set.add(10)
-// set.add("hello")
-// set.add(false)
-// console.log(set)
+// add()
+set.add(10)
+set.add("hello")
+set.add(false)
+console.log(set)
 
 
-// // delete()
-// set.delete(false)
-// console.log(set)
+// delete()
+set.delete(false)
+console.log(set)
 
 
-// // has()
-// console.log(set.has(10))
+// has()
+console.log(set.has(10))
 
 
-// // size()
-// console.log(set.size)
+// size()
+console.log(set.size)
 
 
-// // clear()
+// clear()
 // set.clear()
 // console.log(set)
 
 
-// console.log()
-// // forOf
-// console.log('forOf : -')
-// for (const ch of set) {
-//     console.log(ch)
-// }
+console.log()
+// forOf
+console.log('forOf : -')
+for (const ch of set) {
+    console.log(ch)
+}
 
 
-// console.log()
-// // ForEach
-// console.log('forEach : -')
-// set.forEach((x)=>{
-//     console.log(x)
-// })
+console.log()
+// ForEach
+console.log('forEach : -')
+set.forEach((x)=>{
+    console.log(x)
+})
 
 
 // ------------------------------------------------------------------------------------------------------
 // Map
 
 
-const map1 = new Map();
+// const map1 = new Map();
 
 
-// set
-map1.set("name", "rishi");
-map1.set("age", 20);
-map1.set("height", "174cm");
-// console.log(map1)
+// // set
+// map1.set("name", "rishi");
+// map1.set("age", 20);
+// map1.set("height", "174cm");
+// // console.log(map1)
 
 
-const arr = [["name", "rishi"],["age", 20],["height", "174cm"]]
-const map2 = new Map(arr);
-console.log(map2)
+// const arr = [["name", "rishi"],["age", 20],["height", "174cm"]]
+// const map2 = new Map(arr);
+// console.log(map2)
 
 
-// get()
-console.log()
-console.log("----- get -----")
-console.log(map2.get("name"))
-console.log(map2.get("age"))
+// // get()
+// console.log()
+// console.log("----- get -----")
+// console.log(map2.get("name"))
+// console.log(map2.get("age"))
 
 
-// has()
-console.log()
-console.log("----- has -----")
-console.log(map1.has("height"))
+// // has()
+// console.log()
+// console.log("----- has -----")
+// console.log(map1.has("height"))
 
 
-// delete()
-console.log()
-console.log("----- delete -----")
-console.log(map2.delete("height"))
-console.log(map2)
+// // delete()
+// console.log()
+// console.log("----- delete -----")
+// console.log(map2.delete("height"))
+// console.log(map2)
 
 
-// clear()
-console.log()
-console.log("----- clear -----")
-map2.clear()
-console.log(map2)
+// // clear()
+// console.log()
+// console.log("----- clear -----")
+// map2.clear()
+// console.log(map2)
 
 
-// size
-console.log()
-console.log("----- size -----")
-console.log(map1.size)
+// // size
+// console.log()
+// console.log("----- size -----")
+// console.log(map1.size)
 
 
-// traversal 
-// for of
-console.log()
-console.log("----- forOf -----")
-for (const [key,val] of map1) {
-    console.log(`${key} : ${val}`)
-}
+// // traversal 
+// // for of
+// console.log()
+// console.log("----- forOf -----")
+// for (const [key,val] of map1) {
+//     console.log(`${key} : ${val}`)
+// }
 
 
-// forEach
-console.log()
-console.log("----- forEach -----")
-map1.forEach((ele,idx)=>{
-    console.log(`${idx} : ${ele}`)
-})
+// // forEach
+// console.log()
+// console.log("----- forEach -----")
+// map1.forEach((val,key)=>{
+//     console.log(`${key} : ${val}`)
+// })
 
 
 

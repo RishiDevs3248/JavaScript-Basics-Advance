@@ -1,0 +1,185 @@
+/* types of css
+1. inline
+2. internal
+3. external */
+
+/* priority - first inline , then in other two which ever is written later to overwrite */
+
+
+/* id & class */
+/* id - 
+1. one id can be given to only one element
+2. one element can have only one id
+
+class - 
+1. one class can be given to many element
+2. one element can have many class */
+
+/* 
+selector in css
+1. tags
+2. id #
+3. class .
+4. uniersal *
+5. group ,
+*/
+
+/* total width = content + both padding + both border + both margin
+total height = content + both padding + both border + both margin */
+
+
+/* 
+what is "box-sizing: border-box;" ? 
+The box-sizing property allows us to include the padding and border in an element's total width and height.
+If you set box-sizing: border-box; on an element, padding and border are included in the width and height: 
+*/
+
+
+/* 
+display
+-----------------------
+1. inline 
+    - takes width according to it's content
+    - next element in same line
+    - height and width has no effect
+
+2. block 
+    - takes 100% width
+    - next element in new line
+    - we can set height and width
+
+3. inline - block
+    - we can set height and width
+    - next element in same line 
+
+4. none 
+    - The element is completely removed
+*/
+
+
+/* 
+margin : 10px (all sides)
+margin : 10px 20px (top-bottom left-right)
+margin : 10px 20px 10px (top left-right bottom)
+margin : 10px 20px 30px 5px (top right bottom left)
+margin : 10px (top ,bottom , right) 
+*/
+
+/* 
+css units
+---------------
+1. Absolute units (fixed size).
+    px
+    cm
+    mm
+    in
+    ft
+2. relative units (size depends on something else).
+
+                        relative to ..
+    %                   parent element size
+    em                  font size of parent
+    rem                 font size of html
+
+    vw                  width of the viewport
+    (viewport width)    
+    vh                  height of the viewport
+    (viewport height)
+*/
+
+/* 
+
+1. Color Name:
+p{
+color: blue;
+}
+
+
+2. hex code:  #RRGGBB
+h1 {
+color: #ff0000;    -> red
+}
+
+#ffffff --> white
+#000000 --> black
+
+
+3. RGB:  (0-255)
+div {
+color: rgb(255, 0, 0);   -> red
+}
+
+
+4. RGBA:  (0-1)
+div {
+bg-color: rgba(0, 0, 0, 0.5);  -> semi-transparent black
+} */
+
+
+
+
+/* f
+ont-family: "Montserrat", sans-serif;
+font-size: 24px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-style: italic;
+text-align: justify;
+line-height: 1.4; 
+*/
+
+
+/* 
+text-transform -
+text-transform: uppercase;  -> converts into Upper Case
+text-transform: lowercase;  -> converts into Lower Case
+text-transform: capitalize; -> Capitalizes first letter of every word
+*/
+
+
+
+/* 
+background-color: rgb(235, 173, 16);
+color: #fff;
+padding: 40px;
+text-align: center;
+background-image: url('https://plus.unsplash.com/premium_photo-1719529320784-62161f2728d2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8');
+background-size: cover;
+background-position: center; 
+*/
+
+/* 
+background-size: contain;   --> repeats the image
+background-repeat: no repeat;   --> used when bg-size: contain is used
+background-position: center;  [left, right, top, bottom]
+*/
+
+
+
+/* Position:- 
+------------------
+static
+relative
+absolute
+fixed
+sticky
+
+When we use position, we get access to 4 co-ordinates 
+--> top, right, bottom, left
+
+[relative - will always more related to its current position]
+
+1. relative -
+    - it does not come out of the flow
+    - moves according to its original position
+
+2. absolute - 
+    - coming out of the flow
+    - moves according to positioned parent, viewport in case of no positioned parent
+
+3. fixed -
+    - coming out of the flow
+    - moves according to the viewport
+    - stays at its position on scrolling
+*/

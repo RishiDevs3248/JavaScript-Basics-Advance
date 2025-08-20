@@ -1,0 +1,182 @@
+/* ex 1 */
+/* 
+#Svg_Gparent{
+    position: relative;
+    right: 0px;
+}
+
+#Svg_parent {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#Svg {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
+
+#item_count {
+    position: fixed;
+    right: 0px;
+    background-color: red;
+    color: white;
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+ */
+
+
+/* exercise 2 */
+
+/* 
+#chat_icon{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    font-size: 70px;
+} */
+
+
+/* ex 3 */
+
+/* .scroll_bar{
+    height: 200px;
+    overflow: scroll;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.sticky_title{
+    position: sticky;
+    top:0px;
+    background-color: gray;
+} */
+
+
+
+/* ex 4 */
+
+/* #cta_section{
+    background-color: rgb(3, 3, 100);
+    padding: 20px;
+    color: white;
+    text-align: center;
+} */
+
+
+/* ex 5 */
+/* 
+.hero_section{
+    height: 250px;
+    background-image: url("https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg");
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* ex 6 */
+/* .content {
+    height: 500px;
+}
+
+.parallax_section {
+    height: 500px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+/* ex 7 */
+/* .blog_preview{
+    text-align: center;
+}
+
+.blog_title{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.blog_author{
+    font-size: smaller;
+    font-style: italic;
+}
+
+.cta_button{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+} */
+
+
+/* ex 8 */
+
+/* .quote_box {
+    font-family: sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+
+.quote_text{
+    font-style: italic;
+}
+
+.quote_author {
+    font-variant: small-caps;
+} */
+
+/* ex 9 */
+/* .newsletter{
+    text-align: center;
+}
+
+.text{
+    display: inline;
+} */
+
+
+/* ex 10 */
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+} */
