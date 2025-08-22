@@ -95,7 +95,7 @@
 
 // console.log(arr);
 
-// it does not modify original array
+// it does modify original array
 // it returns undefined
 
 

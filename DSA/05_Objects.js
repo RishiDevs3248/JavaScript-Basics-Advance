@@ -184,7 +184,7 @@
 //     b: 6,
 //     c:7
 // }
-// let z = {...s,...r} //concatinating obj , bur here b is double so it overwrites it 
+// let z = {...s,...r} //concatinating obj , but here b is double so it overwrites it 
 // console.log(z)
 
 
@@ -208,7 +208,7 @@
 // --> here the no of inputs depends on the user , and you cannot write every function
 // console.log(sum(1,2,3,4,5,6,7,8,9,0))
 
-// usig rest operator 
+// using rest operator 
 // function sum (...numbers){
 //     let x = 0 
 //     for(let i=0 ; i<numbers.length ; i++){
