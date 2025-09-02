@@ -1,0 +1,206 @@
+/* === Reset & Base === */
+/* TODO: Universal reset for margin, padding, and set box-sizing */
+* {
+    /* your code */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TODO: Body base
+   - Set a clean font, text color, background
+   - Line-height for readability */
+body {
+    /* your code */
+    font-family: monospace;
+    color: black;
+    background-color: #fffaf1;
+    line-height: 24px;
+}
+
+/* === Layout Wrappers === */
+/* TODO: .container
+   - max-width (e.g., 1100px)
+   - center with margin
+   - horizontal padding */
+.container {
+    /* your code */
+    max-width: 1100px;
+    margin: auto;
+    padding: 0px 24px;
+}
+
+/* TODO: #site-header
+   - vertical spacing
+   - center text */
+#site-header {
+    /* your code */
+    margin-top: 32px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.page-title {
+    /* TODO: bottom margin */
+    margin-bottom: 16px;
+}
+
+.page-subtitle {
+    /* TODO: muted color and small bottom margin */
+    color: #4b4b4b;
+    margin-bottom: 8px;
+}
+
+/* === Card Grid (no flex/grid) === */
+/* Use inline-block for columns and manage horizontal gaps with margins */
+.cards {
+    /* TODO: top spacing from header */
+    display: inline-block;
+}
+
+/* TODO: .card
+   - display: inline-block
+   - width (e.g., 31% to allow 3 per row with margins)
+   - vertical-align: top
+   - background-color: #fff
+   - border, border-radius
+   - margin (to create gaps)
+   - overflow: hidden (to clip image corners) */
+.card {
+    /* your code */
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    background-color: #fffaf1;
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 8px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+/* === Card Parts === */
+/* TODO: .card-img
+   - display: block
+   - width: 100%
+   - height: auto */
+.card-img {
+    /* your code */
+    display: block;
+    width: 100%;
+    height: 400px;
+
+}
+
+/* TODO: .card-body
+   - padding
+   - manage spacing to next block */
+.card-body {
+    /* your code */
+    padding: 24px;
+    letter-spacing: normal;
+}
+
+/* TODO: .card-title
+   - font-size
+   - margin-bottom */
+.card-title {
+    /* your code */
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* TODO: .card-desc
+   - color (slightly muted)
+   - margin-bottom */
+.card-desc {
+    /* your code */
+    color: #4b4b4b;
+    margin-bottom: 8px;
+}
+
+/* TODO: .meta
+   - spacing top/bottom inside card-body */
+.meta {
+    /* your code */
+    margin:8px 0px;
+}
+
+/* TODO: .price
+   - stronger weight or color emphasis */
+.price {
+    /* your code */
+    font-weight:bold;
+}
+
+/* TODO: .badge
+   - optional: small inline box with padding, border, and rounded corners */
+.badge {
+    /* your code */
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* TODO: .card-actions
+   - padding
+   - border-top to separate from body */
+.card-actions {
+    /* your code */
+    padding: 24px;
+    border-top: 1px solid black;
+}
+
+/* TODO: .btn
+   - display: block or inline-block
+   - padding
+   - border
+   - background-color
+   - color
+   - border-radius
+   - cursor: pointer */
+.btn {
+    /* your code */
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.165);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* === Footer === */
+/* TODO: #site-footer
+   - top margin
+   - background-color (soft)
+   - centered text
+   - padding
+   - border-radius (optional) */
+#site-footer {
+    /* your code */
+    margin-top: 24px;
+    background-color: #f5eee1;
+    text-align: center;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.footer-text {
+    /* your code */
+    text-decoration: none;
+}
+
+.footer-link {
+    /* your code */
+    text-decoration: none;
+}
+
+/* === Grouping Selector Example === */
+/* TODO: Share small letter-spacing across titles and footer-text */
+.card-title,
+.footer-text {
+    /* your code */
+    letter-spacing: 0.5px;
+}

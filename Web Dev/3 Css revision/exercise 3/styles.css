@@ -1,0 +1,201 @@
+/* === Reset & Base === */
+/* TODO: Universal selector to reset margin, padding, and set box-sizing */
+* {
+    /* your code */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TODO: Style the body
+   - font-family
+   - text color
+   - background-color */
+body {
+    /* your code */
+    font-family: serif;
+    color: black;
+    background: #FFFAF1;
+}
+
+/* TODO: .shell container
+   - max-width
+   - center align with margin
+   - padding */
+.shell {
+    /* your code */
+    max-width: 70%;
+    margin: auto;
+    padding: 32px;
+}
+
+/* === Hero Section === */
+/* TODO: #hero
+   - text-align center
+   - margin bottom */
+#hero {
+    /* your code */
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/* TODO: .page-title
+   - font size
+   - margin bottom */
+.page-title {
+    /* your code */
+    font-size:16px;
+    margin-bottom: 8px;
+}
+
+/* TODO: .page-subtitle
+   - muted text color
+   - margin bottom */
+.page-subtitle {
+    /* your code */
+    color: rgba(128, 128, 128, 0.8);
+    margin-bottom: 32px;
+}
+
+/* TODO: .hero-banner
+   - background-image (use a placeholder image)
+   - background-size, background-position
+   - background-attachment: fixed
+   - height and border-radius */
+.hero-banner {
+    /* your code */
+    background-image: url("https://i.pinimg.com/1200x/73/15/23/7315238c8e4ed63d1c75f15e8f66a1d2.jpg");
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    height: 120px;
+    border-radius: 10px;
+}
+
+/* === Panel Set === */
+/* TODO: .panel-set
+   - vertical spacing between panels */
+.panel-set {
+    /* your code */
+    margin-top: 32px;
+}
+
+/* TODO: .callout base
+   - background-color: white
+   - border-left
+   - padding
+   - border-radius
+   - margin bottom */
+.callout {
+    /* your code */
+    background-color: #FFFAF1;
+    border-left: 5px solid blue;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+/* TODO: .callout-title
+   - font size
+   - margin bottom */
+.callout-title {
+    /* your code */
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* TODO: .callout-text
+   - font size
+   - line-height
+   - margin bottom */
+.callout-text {
+    /* your code */
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+/* Variants */
+/* TODO: .info: blue tones */
+/* TODO: .success: green tones */
+/* TODO: .warning: amber tones */
+/* TODO: .danger: red tones */
+/* TODO: .note: gray tones */
+.info {
+    /* your code */
+    background-color: #add8e63e;
+    border-color: #ADD8E6;
+}
+
+.success {
+    /* your code */
+    background-color: #6fc2763e;
+    border-color: #6FC276;
+}
+
+.warning {
+    /* your code */
+    background-color: #cfbea53e;
+    border-color: #CFBEA5;
+}
+
+.danger {
+    /* your code */
+    background-color: #FF474C3e;
+    border-color: #FF474C;
+}
+
+.note {
+    /* your code */
+    background-color: #D3D3D33e;
+    border-color: #D3D3D3;
+}
+
+/* TODO: .callout-list
+   - remove default list style
+   - add padding
+   - spacing */
+.callout-list {
+    /* your code */
+    list-style: none;
+    padding: 16px;
+}
+
+/* TODO: .callout-item
+   - spacing between items
+   - optional subtle border-left */
+.callout-item {
+    /* your code */
+    margin: 16px;
+
+}
+
+/* Footer */
+/* TODO: #site-footer
+   - background-color
+   - text-align
+   - padding
+   - margin top */
+#site-footer {
+    /* your code */
+    background-color: #d3d3d375;
+    text-align: center;
+    padding: 24px;
+}
+
+.footer-text {
+    /* your code */
+    text-decoration: none;
+}
+
+.footer-link {
+    /* your code */
+    text-decoration: none;
+}
+
+/* Grouping example */
+/* TODO: Group .callout-title and .footer-text for shared letter-spacing */
+.callout-title,
+.footer-text {
+    /* your code */
+    letter-spacing: 1px;
+}
