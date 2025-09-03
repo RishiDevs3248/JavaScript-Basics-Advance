@@ -183,3 +183,13 @@ When we use position, we get access to 4 co-ordinates
     - moves according to the viewport
     - stays at its position on scrolling
 */
+
+
+
+/* 
+
+display : grid;
+grid-template-columns : 100px 100px 100px;
+grid-template-rows : 100px 100px;
+
+*/
