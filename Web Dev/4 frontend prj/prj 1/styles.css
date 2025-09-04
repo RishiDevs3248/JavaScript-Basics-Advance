@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    font-family: monospace;
+    background-color: #303030;
+    color: white;
+    height: 100vh;
+}
+
+#history {
+    width: 13%;
+    padding: 24px;
+    background-color: #181818;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.detailedHistoryHeading {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.detailedHistory {
+    margin-left: 24px;
+}
+
+.detailedHistory ul li {
+    margin-bottom: 8px;
+}
+
+
+/* chat body */
+#chatBody {
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatWindow {
+    position: fixed;
+    top: 0px;
+    padding: 24px;
+    width: 87%;
+    background-color: #292828;
+}
+
+.typeMsg {
+    position: fixed;
+    bottom: 0px;
+    padding: 16px;
+    width: 87%;
+    background-color: #292828;
+    display: flex;
+    justify-content: space-between;
+}
+
+.typeMsg input {
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px 16px;
+    outline: none;
+}
+
+.typeMsg button {
+    background-color: #24a0e8;
+    width: 88px;
+    height: 40px;
+    border-radius: 44px;
+
+}
+
+.typeMsg button:hover {
+    background-color: #2daaff;
+    cursor: pointer;
+}
+
+.chat{
+    margin-top: 65px;
+    padding: 24px;
+}
+
+.reply{
+    width :100%;
+    margin: 8px 0px;
+}
+
+.textreply{
+    border: 1px solid gray;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.ai{
+    display: flex;
+    justify-content: start;
+    max-width: 50%;
+}
+
+.you{
+    display: flex;
+    justify-content: end;
+    max-width: 50%;
+    margin-left: auto;
+}
