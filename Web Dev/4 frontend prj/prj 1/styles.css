@@ -83,6 +83,12 @@
 .typeMsg button:hover {
     background-color: #2daaff;
     cursor: pointer;
+    
+}
+
+.typeMsg button:active {
+    background-color: green;
+    cursor: pointer;
 }
 
 .chat{
