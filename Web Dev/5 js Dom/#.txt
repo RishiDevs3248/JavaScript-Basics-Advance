@@ -1,0 +1,8 @@
+types of selector in DOM 
+
+-    document.getElementById
+-    document.getElementsByClassName
+-    document.getElementsByTagName
+-    document.querySelector
+-    document.querySelectorAll
+
