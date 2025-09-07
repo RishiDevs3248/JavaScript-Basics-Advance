@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fffaf1;
+    text-align: center;
+    font-family: monospace;
+}
+
+header {
+    background-color: #ff6700;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fffaf1;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav {
+    background-color: #3b3b3b;
+    color: #fffaf1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav div {
+    width: 20%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav div a {
+    font-size: 16px;
+    color: #fffaf1;
+    text-decoration: none;
+}
+
+nav div a:visited {
+    color: #fffaf1;
+    text-decoration: none;
+}
+
+
+form {
+    border: 1px solid #3b3b3b;
+    height: calc(100vh - 414px);
+    margin: 32px auto;
+    padding: 24px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#name {
+    width: 79%;
+}
+
+#email {
+    width: 76%;
+}
+
+#phone {
+    width: 76%;
+}
+
+#date {
+    width: 79%;
+}
+
+#time {
+    width: 79%;
+}
+
+#number{
+    width: 45%;
+}
+
+#Sreq{
+    width: 100%;
+    height: 45px;
+}
+
+#btn{
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #ff6700;
+    color: #fffaf1;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+#btn:active{
+    background-color: #3b3b3b;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: #fffaf1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    margin-bottom: 16px;
+}
+
+footer div a {
+    color: #fffaf1;
+    text-decoration: none;
+}
+
+footer div a:visited {
+    color: #fffaf1;
+    text-decoration: none;
+}
