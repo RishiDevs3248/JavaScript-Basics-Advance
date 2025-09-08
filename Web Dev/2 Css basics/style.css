@@ -193,3 +193,35 @@ grid-template-columns : 100px 100px 100px;
 grid-template-rows : 100px 100px;
 
 */
+
+
+/* 
+
+    shadow - 
+
+    1) text shadow 
+    text: 
+    - offset x
+    - offset y
+    - blur radius
+    - color 
+
+    2) box shadow 
+    box: 
+    - offset x
+    - offset y
+    - blur radius
+    - color 
+
+*/
+
+/* 
+
+transform
+
+translate
+scale 
+rotate
+skew
+
+*/

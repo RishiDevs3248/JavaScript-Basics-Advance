@@ -1,0 +1,169 @@
+
+
+/* loading */
+
+/* #outer {
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(0.25turn, blue, #fff , #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    animation: rotate 1s infinite;
+    transition: all 1s ease-in-out;
+}
+
+#inner {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* ex 1 */
+/* .container{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+}
+
+.img:hover{
+    transform: scale(1.5) translateY(-20px);
+} */
+
+/* ex 2 */
+
+/* .btn{
+    background: red;
+    transition: background-color 1s ease, transform 1s ease;
+}
+
+.btn:active{
+    background-color: blue;
+     transform: scale(1.5) translate(10px,-5px);
+} */
+
+/* ex 3 */
+/* .card{
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+    background: purple;
+}
+
+.card:hover{
+    transform: skew(10deg);
+} */
+
+/* ex 4 */
+
+/* .icon{
+    transition: all 1s ease;
+    height: 10px ;
+    width: 10px;
+}
+
+.icon:hover{
+    transform: rotate(100deg) translate(50px,-10px); 
+} */
+
+/* ex 5 */
+.btn{
+    background: red;
+    transition: background-color 1s ease, transform 1s ease;
+}
+
+.btn:hover{
+    background-color: blue;
+    transform: scale(1.5) translate(10px,-5px);
+} 
+
+/* ex 6 */
+.container{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+}
+
+.img:hover{
+    transform: scale(1.5);
+} 
+
+
+/* ex 7 */
+
+.card{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.118);
+}
+.card:hover{
+    box-shadow: 3px 3px 5px black;
+}
+
+/* ex 8 */
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+
+    position: relative;
+     padding: 5px 10px;  
+}
+
+nav a::after{
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    transition: width 0.3s ease;
+    border-radius: 1px;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+/* ex 9  */
+.fade-box{
+    height: 20px;
+    width: 100px;
+    background: red;
+    transition: all 1s ease;
+}
+.fade-box:hover{
+    opacity: 0.2;
+}
