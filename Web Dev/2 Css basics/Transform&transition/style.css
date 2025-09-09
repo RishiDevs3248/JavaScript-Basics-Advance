@@ -2,7 +2,7 @@
 
 /* loading */
 
-/* #outer {
+#outer {
     height: 40px;
     width: 40px;
     background: linear-gradient(0.25turn, blue, #fff , #fff);
@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    animation: rotate 1s infinite;
-    transition: all 1s ease-in-out;
+    animation: rotate 1s linear infinite;
+    transition: all 1s ;
 }
 
 #inner {
@@ -22,13 +22,13 @@
 }
 
 @keyframes rotate {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
-} */
+}
 
 
 /* ex 1 */
@@ -85,7 +85,7 @@
 } */
 
 /* ex 5 */
-.btn{
+/* .btn{
     background: red;
     transition: background-color 1s ease, transform 1s ease;
 }
@@ -93,10 +93,10 @@
 .btn:hover{
     background-color: blue;
     transform: scale(1.5) translate(10px,-5px);
-} 
+}  */
 
 /* ex 6 */
-.container{
+/* .container{
     height: 100px;
     width: 100px;
     overflow: hidden;
@@ -110,12 +110,12 @@
 
 .img:hover{
     transform: scale(1.5);
-} 
+}  */
 
 
 /* ex 7 */
 
-.card{
+/* .card{
     height: 100px;
     width: 100px;
     border-radius: 10px;
@@ -127,11 +127,11 @@
 }
 .card:hover{
     box-shadow: 3px 3px 5px black;
-}
+} */
 
 /* ex 8 */
 
-nav a{
+/* nav a{
     text-decoration: none;
     color: black;
     font-family: monospace;
@@ -154,11 +154,11 @@ nav a::after{
 
 nav a:hover::after{
     width: 100%;
-}
+} */
 
 
 /* ex 9  */
-.fade-box{
+/* .fade-box{
     height: 20px;
     width: 100px;
     background: red;
@@ -166,4 +166,4 @@ nav a:hover::after{
 }
 .fade-box:hover{
     opacity: 0.2;
-}
+} */
