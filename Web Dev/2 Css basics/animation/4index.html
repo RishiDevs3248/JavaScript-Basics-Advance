@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .bonce{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+
+            animation: ball 2s infinite;
+
+        }
+
+        @keyframes ball {
+            0%{
+                top: 0px
+            }50%{
+                top : 100px
+            }100%{
+                top : 0px
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bonce"></div>
+</body>
+</html>
