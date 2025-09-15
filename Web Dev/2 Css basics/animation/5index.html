@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .banner{
+            height: 100px;
+            width: 250px;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+
+        .text{
+            animation: move 3s infinite linear;
+        }
+
+        @keyframes move {
+            from{
+                transform: translateX(100%);
+            }to {
+                transform: translateX(-100%);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="text">
+            Welcome to my website
+        </div>
+    </div>
+</body>
+</html>
